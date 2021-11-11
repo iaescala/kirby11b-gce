@@ -9,6 +9,12 @@ I have also included a module for fitting the GCE model using minimization algor
 
 See the example in the included Jupyter notebook.
 
+The most important thing is that to use different IMF, DTD, and GCE model options, you need to edit the gce_params.py file. Currently
+they are set to the default used in Kirby+11b. 
+
+I have also included some options in the fitting algorithm, where you can fit individual [X/Fe] (Mg, Ca, Si, and including or excluding Ti)
+or a bulk [alpha/Fe] (that also includes or excludes Ti). I have also made the mass constraints from Kirby+11b optional.
+
 # Requirements #
 
 Python 3, standard libraries such as numpy, scipy
